@@ -122,9 +122,9 @@ def intro():
     st.write(personalized_profile)
 
 
-intType1 = st.Page("interaction/limited.py", title="Limited Topics")
-intType2 = st.Page("interaction/open.py", title="Open Conversing")
-intType3 = st.Page("interaction/costello.py", title="Costello et al. Like")
+intType1 = st.Page("limited.py", title="Limited Topics")
+intType2 = st.Page("open.py", title="Open Conversing")
+intType3 = st.Page("costello.py", title="Costello et al. Like")
 pg = st.navigation([st.Page(intro, title="Homepage"), intType1, intType2, intType3])
 
 pg.run()
